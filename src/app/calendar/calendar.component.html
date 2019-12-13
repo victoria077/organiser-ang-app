@@ -1,0 +1,24 @@
+<section>
+    <header>
+        Organiser: <strong>{{dateService.date | async | moment:'DD.MM.YYYY'}} </strong>
+        <hr>
+    </header>
+
+    <main>
+        <ul>
+            <li class="task">
+                <span>
+                    <strong></strong>
+                </span>
+                <button class="btn btn-primary">Remove</button>
+            </li>
+        </ul>
+    </main>
+
+<footer>
+    <form>
+        <input type="text">
+        <button class="btn btn-primary btn-block">Add</button>
+    </form>
+</footer>
+</section>
